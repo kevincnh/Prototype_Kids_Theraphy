@@ -25,7 +25,7 @@ const Index = () => {
           rel='icon'
           type='image/png'
           sizes='32x32'
-          href='/shuffle-for-bootstrap.png'
+          href='logo.png'
         />
         <Script
           src='js/global-76021.js'
