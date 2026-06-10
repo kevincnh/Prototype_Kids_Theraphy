@@ -5,7 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/Prototype_Kids_Theraphy',
+  basePath: process.env.GITHUB_ACTIONS ? '/Prototype_Kids_Theraphy' : '',
 }
 
 module.exports = nextConfig
